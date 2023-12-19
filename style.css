@@ -24,25 +24,24 @@ h1,
 h2,
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #f3f3f3;
+  color: #fff;
 }
 
 /* here */
 @media (max-width: 800px) {
   body {
-    background: #252525;
     background: url("./foto1.jpg") center no-repeat;
     background-size: cover;
   }
   h1 {
-    font-size: 2.5rem;
-    margin-bottom: 115px;
+    font-size: 3rem;
+    /* margin-bottom: 115px; */
+    margin-top: 470px;
   }
   p {
     position: absolute;
     font-size: 1.125rem;
-    color: #f3f3f3;
-    top: 80vh;
+    top: 85vh;
     left: 5vw;
   }
   h1,
